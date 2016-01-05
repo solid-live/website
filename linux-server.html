@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)linux-server.html -->
+<html class="no-touch" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Emby Server for Linux - Emby</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="resources/settings.css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largeredbtn{font-family:"Raleway",sans-serif;font-weight:900;font-size:16px;line-height:60px;color:#fff !important;text-decoration:none;padding-left:40px;padding-right:80px;padding-top:22px;padding-bottom:22px;background:rgb(234,91,31); background:-moz-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(234,91,31,1)),color-stop(100%,rgba(227,58,12,1))); background:-webkit-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-o-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:-ms-linear-gradient(top,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); background:linear-gradient(to bottom,rgba(234,91,31,1) 0%,rgba(227,58,12,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea5b1f',endColorstr='#e33a0c',GradientType=0 )}.largeredbtn:hover{background:rgb(227,58,12); background:-moz-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(227,58,12,1)),color-stop(100%,rgba(234,91,31,1))); background:-webkit-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-o-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:-ms-linear-gradient(top,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); background:linear-gradient(to bottom,rgba(227,58,12,1) 0%,rgba(234,91,31,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e33a0c',endColorstr='#ea5b1f',GradientType=0 )}.fullrounded img{-webkit-border-radius:400px;-moz-border-radius:400px;border-radius:400px}
+</style>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" id="us-motioncss-css" href="resources/motioncss.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-motioncss-responsive-css" href="resources/motioncss-responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-font-awesome-css" href="resources/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-font-mdfi-css" href="resources/font-mdfi.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-magnific-popup-css" href="resources/magnific-popup.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-fotorama-css" href="resources/fotorama.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-style-css" href="resources/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="us-responsive-css" href="resources/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-style-css" href="resources/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="us_custom_css-css" href="resources/us_zephyr_custom_styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="ultimate-style-min-css" href="resources/ultimate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="bsf-Defaults-css" href="resources/Defaults.css" type="text/css" media="all">
+<script type="text/javascript" src="resources/jquery.js"></script>
+<script type="text/javascript" src="resources/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="resources/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="resources/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="resources/ultimate-params.min.js"></script>
+
+
+<link rel="prev" title="Emby for Xbox 360" href="emby-for-xbox-360.html">
+<link rel="next" title="Emby for Windows Phone" href="emby-for-windows-phone.html">
+<meta name="generator" content="WordPress 4.3.1">
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="resources/vc-ie8.css" media="screen"><![endif]--><link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" href="favicon.ico?v=3"><noscript>&lt;style&gt; .wpb_animate_when_almost_visible { opacity: 1; }&lt;/style&gt;</noscript>	
+<style>/** Ultimate: Media Responsive **/ @media (max-width: 1199px) { }@media (max-width: 991px)  { }@media (max-width: 767px)  { }@media (max-width: 479px)  { }/** Ultimate: Media Responsive - **/</style></head><body class="single single-us_portfolio postid-5079 l-body us-theme_zephyr_1-6 wpb-js-composer js-comp-ver-4.5.2 vc_responsive hasGoogleVoiceExt">
+<!-- CANVAS -->
+<div class="l-canvas type_wide col_cont headerlayout_extended headerpos_fixed">
+
+	<!-- HEADER -->
+	<div class="l-header">
+
+		<div class="l-subheader at_top" style="line-height: 40px; height: 40px;">
+			<div class="l-subheader-h i-cf">
+			
+							
+
+<div class="w-contacts">
+	<div class="w-contacts-list">
+				</div>
+</div>
+
+			
+			
+							
+<div class="w-socials">
+		<div class="w-socials-list">
+			<div class="w-socials-item facebook">
+		<a class="w-socials-item-link" target="_blank" href="http://facebook.com/embyapp"></a>
+		<div class="w-socials-item-popup">
+			<span>Facebook</span>
+		</div>
+	</div><div class="w-socials-item twitter">
+		<a class="w-socials-item-link" target="_blank" href="http://twitter.com/embyapp"></a>
+		<div class="w-socials-item-popup">
+			<span>Twitter</span>
+		</div>
+	</div><div class="w-socials-item google">
+		<a class="w-socials-item-link" target="_blank" href="https://plus.google.com/u/0/104622186938779417813/posts"></a>
+		<div class="w-socials-item-popup">
+			<span>Google+</span>
+		</div>
+	</div><div class="w-socials-item tumblr">
+		<a class="w-socials-item-link" target="_blank" href="http://embyapp.tumblr.com/"></a>
+		<div class="w-socials-item-popup">
+			<span>Tumblr</span>
+		</div>
+	</div><div class="w-socials-item github">
+		<a class="w-socials-item-link" target="_blank" href="https://github.com/MediaBrowser"></a>
+		<div class="w-socials-item-popup">
+			<span>GitHub</span>
+		</div>
+	</div><div class="w-socials-item rss">
+		<a class="w-socials-item-link" target="_blank" href="http://emby.media/feed"></a>
+		<div class="w-socials-item-popup">
+			<span>RSS</span>
+		</div>
+	</div>		</div>
+	</div>			
+						</div>
+		</div>
+				<div class="l-subheader at_middle" style="line-height: 100px;">
+			<div class="l-subheader-h i-widgets i-cf">
+
+				<div class="w-logo ">
+					<a class="w-logo-link" href="index.html">
+												<span class="w-logo-img">
+															<img class="for_default" src="resources/logowhite_1881.png" alt="Emby">
+																				</span>
+												<span class="w-logo-title"><strong>EMBY</strong></span>
+					</a>
+				</div>
+
+				
+											
+					
+											
+<div class="w-search">
+	<span class="w-search-show"><i class="mdfi_action_search"></i></span>
+	<div class="w-search-form-overlay"></div>
+	<form class="w-search-form" action="index.html">
+		<div class="w-search-form-h">
+			<div class="w-search-form-row">
+								<div class="w-search-label">
+					<label for="s">Just type and press 'enter'</label>
+				</div>
+				<div class="w-search-input">
+					<input type="text" value="" id="s" name="s">
+					<span class="w-search-input-bar"></span>
+				</div>
+				<div class="w-search-submit">
+					<input type="submit" id="searchsubmit" value="Search" class="not-empty">
+				</div>
+				<div class="w-search-close"> ✕ </div>
+			</div>
+		</div>
+	</form>
+</div>
+					
+					
+
+<!-- NAV -->
+<nav class="w-nav layout_hor animation_mdesign height_auto type_desktop">
+	<div class="w-nav-control"></div>
+	<ul class="w-nav-list level_1  hover_none" style="display: block;">
+		<li id="menu-item-5390" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-5390"><a class="w-nav-anchor level_1" href="about.html"><span class="w-nav-title">ABOUT</span><span class="w-nav-arrow"></span><span class="ripple-container"></span></a></li>
+<li id="menu-item-4831" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4831"><a class="w-nav-anchor level_1" href="https://emby.media/blog/"><span class="w-nav-title">BLOG</span><span class="w-nav-arrow"></span><span class="ripple-container"></span></a></li>
+<li id="menu-item-5028" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-5028"><a class="w-nav-anchor level_1" href="download.html"><span class="w-nav-title">DOWNLOAD</span><span class="w-nav-arrow"></span><span class="ripple-container"></span></a></li>
+<li id="menu-item-6279" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-6279"><a class="w-nav-anchor level_1" href="premiere.html"><span class="w-nav-title">EMBY PREMIERE</span><span class="w-nav-arrow"></span><span class="ripple-container"></span></a></li>
+<li id="menu-item-6320" class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-6320"><a class="w-nav-anchor level_1" target="_blank" href="http://app.emby.media"><span class="w-nav-title">SIGN IN</span><span class="w-nav-arrow"></span><span class="ripple-container"></span></a></li>
+<li id="menu-item-5005" class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-5005"><a class="w-nav-anchor level_1" href="support.html"><span class="w-nav-title">SUPPORT</span><span class="w-nav-arrow"></span><span class="ripple-container"></span></a></li>
+	</ul>
+</nav><!-- /NAV -->
+
+					
+					
+							</div>
+		</div>
+		
+	</div>
+	<!-- /HEADER -->
+
+	<!-- MAIN -->
+	<div class="l-main">
+	<div class="l-submain for_pagehead color_alternate size_large" style="padding-top: 140px;">
+				<div class="l-submain-h g-html i-cf">
+			<div class="w-pagehead">
+				<h1>Emby Server for Linux</h1>
+												<div class="w-pagehead-nav">
+					<div class="w-pagehead-nav-h">
+											<a class="w-pagehead-nav-item type_prev" href="emby-for-windows-phone.html" title="Emby for Windows Phone"><i class="mdfi_navigation_chevron_left"></i></a>
+												<a class="w-pagehead-nav-item type_next" href="emby-for-xbox-360.html" title="Emby for Xbox 360"><i class="mdfi_navigation_chevron_right"></i></a>
+											</div>
+				</div>
+							</div>
+		</div>
+	</div>
+<div class="l-submain wpb_row"><div class="l-submain-h g-html i-cf"><div class="g-cols wpb_row offset_wide"><div class="full-width"><div class="w-tabs layout_accordion" id="tabs_671816"><div class="w-tabs-list items_8"><div class="w-tabs-item active"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Arch Linux</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">CentOS</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Debian</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Docker</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Fedora</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">OpenSUSE</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Ubuntu</span></div><span class="ripple-container"></span></div>
+<div class="w-tabs-item"><div class="w-tabs-item-h"><span class="w-tabs-item-icon"><i class=""></i></span><span class="w-tabs-item-title">Manual</span></div><span class="ripple-container"></span></div>
+</div><div class="w-tabs-section active"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Arch Linux</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content" style=""><div class="w-tabs-section-content-h i-cf">
+
+	<div class="wpb_text_column ">
+		<div class="wpb_wrapper">
+			
+<div><strong>Run the following:</strong></div>
+<p><code>pacman -S emby-server</code></p>
+<div><strong>Start Emby Server</strong></div>
+<p>systemctl start emby-server</p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/13120-arch-linux" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+
+
+		</div> 
+	</div> 
+</div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">CentOS</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+	<div class="wpb_text_column ">
+		<div class="wpb_wrapper">
+			
+<div><strong>Install epel repository</strong></div>
+<p><code>yum install epel-release</code></p>
+<div><strong>Install Emby Server</strong></div>
+<p>Install Emby Server using the Emby Open Build Service:<br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server" target="_blank">Stable Release Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-beta" target="_blank">Beta Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-dev" target="_blank">Dev Channel (Unstable)</a>
+</p>
+<div><strong>Start Emby Server</strong></div>
+<p><code>systemctl start emby-server &lt;-- (systemd distros)</code><br>
+OR<br>
+<code>service start emby-server &lt;-- (SysV distros)</code></p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/13398-fedoracentos-rpm" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+
+		</div> 
+	</div> </div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Debian</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+	<div class="wpb_text_column ">
+		<div class="wpb_wrapper">
+			
+<div><strong>Install Emby Server</strong></div>
+<p>Install Emby Server using the Emby Open Build Service:<br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server" target="_blank">Stable Release Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-beta" target="_blank">Beta Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-dev" target="_blank">Dev Channel (Unstable)</a>
+</p>
+<div><strong>Start Emby Server</strong></div>
+<p><code>sudo service emby-server start</code></p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/19415-debian" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+
+		</div> 
+	</div> </div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Docker</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+<div><strong>Install Docker</strong></div>
+<p><a href="https://docs.docker.com/installation/#installation">https://docs.docker.com/installation/#installation</a></p>
+<div><strong>Run Emby Server</strong></div>
+<p><code>docker run -d --net=host -v {DataPath}:/config -v {MediaPath}:/media -e TZ=TimeZone --name=EmbyServer emby/embyserver</code></p>
+<div><strong>Substitute in the command line:</strong></div>
+<p>TimeZone - Time zone<br>
+{DataPath} - A location to store Emby data files.<br>
+{MediaPath} - A top-level media path to expose to Docker.<br>
+If you need to add multiple paths, simply duplicate -v {MediaPath}:/media</p>
+<div><strong>Optional Environment variables: </strong></div>
+<p>MB_USER_ID (i.e. -e MB_USER_ID=99) - dictates the uid which emby runs under (99 is default)<br>
+MB_GROUP_ID (i.e. -e MB_GROUP_ID=100) - dictates the gid which emby runs under (100 is default)</p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><strong>To restart the server:</strong></div>
+<p><code>docker exec EmbyServer sv restart emby</code></p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/9754-docker-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+</div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Fedora</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+	<div class="wpb_text_column ">
+		<div class="wpb_wrapper">
+			<p>
+		</p></div> 
+	</div> 
+<div><strong>Install Emby Server</strong></div>
+<p>Install Emby Server using the Emby Open Build Service:<br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server" target="_blank">Stable Release Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-beta" target="_blank">Beta Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-dev" target="_blank">Dev Channel (Unstable)</a>
+</p>
+<div><strong>Start Emby Server</strong></div>
+<p><code>systemctl start emby-server</code></p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/13398-fedoracentos-rpm" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+</div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">OpenSUSE</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+<div><strong>Install Emby Server</strong></div>
+<p>Install Emby Server using the Emby Open Build Service:<br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server" target="_blank">Stable Release Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-beta" target="_blank">Beta Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-dev" target="_blank">Dev Channel (Unstable)</a>
+</p>
+<div><strong>Start Emby Server</strong></div>
+<p><code>sudo service emby-server start</code></p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/29062-opensuse" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+</div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Ubuntu</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+<div><strong>Install Emby Server</strong></div>
+<p>Install Emby Server using the Emby Open Build Service:<br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server" target="_blank">Stable Release Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-beta" target="_blank">Beta Channel</a><br>
+<a href="https://software.opensuse.org/download.html?project=home%3Aemby&amp;package=emby-server-dev" target="_blank">Dev Channel (Unstable)</a>
+</p>
+<div><strong>Start Emby Server</strong></div>
+<p><code>sudo service emby-server start</code></p>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/13029-ubuntu-package" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+</div></div></div>
+<div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Manual</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
+<div><strong>Install Dependencies</strong></div>
+<ul>
+<li><a href="http://www.mono-project.com/download/">mono</a> 3.4 or above</li>
+<li>sqlite3</li>
+<li>ImageMagick (preferably Q8, without OpenMP, without HDRI)</li>
+</ul>
+<div><strong>Get Emby Server</strong></div>
+<ul>
+<li>download and unzip <a href="https://github.com/MediaBrowser/Emby.Releases/raw/master/Server/Emby.Mono.zip">Emby.Mono.zip</a></li>
+</ul>
+<div><strong>Configure</strong></div>
+<ul>
+<li>Adjust ImageMagickSharp.dll.config as needed to point to the installed version of ImageMagick</li>
+<li>Adjust System.Data.SQLite.dll.config as needed to point to the installed version of sqlite3</li>
+</ul>
+<div><strong>Run Emby Server</strong></div>
+<ul>
+<li>mono MediaBrowser.Server.Mono.exe</li>
+</ul>
+<div><strong>Run Setup Wizard</strong></div>
+<p>Visit http://localhost:8096</p>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/3634-linux-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+</div>
+</div></div></div>
+<style> #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(1).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-700%,0,0);transform: translate3d(-700%,0,0); } #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(2).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-600%,0,0);transform: translate3d(-600%,0,0); } #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(3).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-500%,0,0);transform: translate3d(-500%,0,0); } #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(4).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-400%,0,0);transform: translate3d(-400%,0,0); } #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(5).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-300%,0,0);transform: translate3d(-300%,0,0); } #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(6).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-200%,0,0);transform: translate3d(-200%,0,0); } #tabs_671816 .w-tabs-list .w-tabs-item:nth-child(7).active ~ .w-tabs-item:last-child::before {-webkit-transform: translate3d(-100%,0,0);transform: translate3d(-100%,0,0); }</style></div></div></div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div><div class="g-cols wpb_row offset_wide"><div class="full-width">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+		<div class="wpb_wrapper">
+			<style>
+.w-tabs-item-title{
+font-weight: 400;
+}
+</style>
+		</div> 
+	</div> </div></div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
+</div></div>	</div>
+<!-- /MAIN -->
+
+</div>
+<!-- /CANVAS -->
+
+<!-- FOOTER -->
+<div class="l-footer">
+		<!-- subfooter: top -->
+	<div class="l-subfooter at_top">
+		<div class="l-subfooter-h g-cols offset_default">
+					<div class="one-third">
+							</div>
+						<div class="one-third">
+							</div>
+						<div class="one-third">
+							</div>
+			
+		</div>
+	</div>
+			<!-- subfooter: bottom -->
+	<div class="l-subfooter at_bottom">
+		<div class="l-subfooter-h i-cf">
+						<div class="w-copyright"><p>© 2015 Emby LLC</p><p style="margin-top:1em;">Emby is designed to help you manage your personal media library, such as home videos and photos.  Please see our <a href="linux-server.htmlterms">terms of use</a>.  Downloading any Emby software constitutes acceptance of these terms.</p><br><p>Built with <a href="https://www.jetbrains.com/resharper"><img src="resources/resharper_logo-2.png" style="height:20px;vertical-align:middle;margin:0 5px;">Resharper</a></p></div>
+
+		</div>
+	</div>
+	
+</div>
+<!-- /FOOTER -->
+<a class="w-toplink" href="linux-server.html#"><i class="mdfi_hardware_keyboard_arrow_up"></i></a>
+<script type="text/javascript">
+	if (window.$us === undefined) window.$us = {};
+	$us.canvasOptions = ($us.canvasOptions || {});
+	$us.canvasOptions.headerDisableStickyHeaderWidth = 300;
+	$us.canvasOptions.headerDisableAnimationWidth = 1000;
+	$us.canvasOptions.headerMainHeight = 100;
+	$us.canvasOptions.headerMainShrinkedHeight = 60;
+	$us.canvasOptions.headerExtraHeight = 40;
+	$us.canvasOptions.firstSubmainPadding = 140;
+
+	$us.navOptions = ($us.navOptions || {});
+	$us.navOptions.mobileWidth = 1000;
+	$us.navOptions.togglable = true;
+
+	
+	window.nameFieldError = "Please enter your Name";
+	window.emailFieldError = "Please enter your Email";
+	window.phoneFieldError = "Please enter your Phone Number";
+	window.captchaFieldError = "Please enter the equation result";
+	window.messageFieldError = "Please enter a Message";
+	window.messageFormSuccess = "Thank you! Your message was sent.";
+</script>
+<script type="text/javascript" src="resources/jquery.easing.min.js"></script>
+<script type="text/javascript" src="resources/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="resources/jquery.simpleplaceholder.js"></script>
+<script type="text/javascript" src="resources/waypoints.min.js"></script>
+<script type="text/javascript" src="resources/imagesloaded.js"></script>
+<script type="text/javascript" src="resources/us.core.js"></script>
+<script type="text/javascript" src="resources/us.widgets.js"></script>
+<script type="text/javascript" src="resources/comment-reply.min.js"></script>
+
+
+
+<!-- Dynamic page generated in 0.564 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-01-03 14:52:33 -->
+
+<!-- Compression = gzip --></body></html>
