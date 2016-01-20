@@ -252,6 +252,9 @@ OR<br>
 <div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Docker</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
 <div><strong>Install Docker</strong></div>
 <p><a href="https://docs.docker.com/installation/#installation">https://docs.docker.com/installation/#installation</a></p>
+<div><strong>Install Emby Server</strong></div>
+<p><code>docker run -it --rm -v /usr/local/bin:/target \
+    emby/embyserver instl</code></p>
 <div><strong>Run Emby Server</strong></div>
 <p><code>docker run -d --net=host -v {DataPath}:/config -v {MediaPath}:/media -e TZ=TimeZone --name=EmbyServer emby/embyserver</code></p>
 <div><strong>Substitute in the command line:</strong></div>
@@ -266,7 +269,9 @@ MB_GROUP_ID (i.e. -e MB_GROUP_ID=100) - dictates the gid which emby runs under (
 <p>Visit http://localhost:8096</p>
 <div><strong>To restart the server:</strong></div>
 <p><code>docker exec EmbyServer sv restart emby</code></p>
-<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/9754-docker-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>More Information</span><span class="ripple-container"></span></a></span>
+<div><span class="wpb_button align_left"><a href="https://github.com/MediaBrowser/Wiki/wiki/Docker-Getting-Started" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>Docker Wiki</span><span class="ripple-container"></span></a></span>
+</div>
+<div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/9754-docker-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>Community</span><span class="ripple-container"></span></a></span>
 </div>
 </div></div></div>
 <div class="w-tabs-section"><div class="w-tabs-section-header"><div class="w-tabs-section-icon"><i class=""></i></div><h5 class="w-tabs-section-title">Fedora</h5><div class="w-tabs-section-control"><i class="mdfi_hardware_keyboard_arrow_down"></i></div></div><div class="w-tabs-section-content"><div class="w-tabs-section-content-h i-cf">
