@@ -256,19 +256,10 @@ OR<br>
 <p><code>docker run -it --rm -v /usr/local/bin:/target \
     emby/embyserver instl</code></p>
 <div><strong>Run Emby Server</strong></div>
-<p><code>docker run -d --net=host -v {DataPath}:/config -v {MediaPath}:/media -e TZ=TimeZone --name=EmbyServer emby/embyserver</code></p>
-<div><strong>Substitute in the command line:</strong></div>
-<p>TimeZone - Time zone<br>
-{DataPath} - A location to store Emby data files.<br>
-{MediaPath} - A top-level media path to expose to Docker.<br>
-If you need to add multiple paths, simply duplicate -v {MediaPath}:/media</p>
-<div><strong>Optional Environment variables: </strong></div>
-<p>MB_USER_ID (i.e. -e MB_USER_ID=99) - dictates the uid which emby runs under (99 is default)<br>
-MB_GROUP_ID (i.e. -e MB_GROUP_ID=100) - dictates the gid which emby runs under (100 is default)</p>
+<p><code>/usr/local/bin/emby-server</code></p>
 <div><strong>Run Setup Wizard</strong></div>
 <p>Visit http://localhost:8096</p>
-<div><strong>To restart the server:</strong></div>
-<p><code>docker exec EmbyServer sv restart emby</code></p>
+<div>For additional information and environment variables please see our <a href="https://github.com/MediaBrowser/Wiki/wiki/Docker-Getting-Started" target="_blank">Docker Wiki</a>.</div>
 <div><span class="wpb_button align_left"><a href="https://github.com/MediaBrowser/Wiki/wiki/Docker-Getting-Started" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>Docker Wiki</span><span class="ripple-container"></span></a></span>
 </div>
 <div><span class="wpb_button align_left"><a href="https://emby.media/community/index.php?/topic/9754-docker-setup" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-info-circle"></i><span>Community</span><span class="ripple-container"></span></a></span>
