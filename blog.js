@@ -67,6 +67,8 @@
             for (var i = 0, length = items.length; i < length; i++) {
                 html += getBlogItemHtml(item);
             }
+
+            document.querySelector('.blogItems').innerHTML = html;
         });
     }
 
