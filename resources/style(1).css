@@ -8,6 +8,26 @@ Author URI: http://us-themes.com/
 */
 
 /*Add your own styles here:*/
-.w-search{
-display:none;
+.w-search {
+    display: none;
+}
+
+.card {
+    display: block;
+    color: #000;
+}
+
+.cardContent {
+    background-color: #fff;
+    padding: 1.5em;
+}
+
+.cardTitle {
+    font-size: 120%;
+    margin: 1em 0;
+}
+
+.cardDate {
+    margin: 1em 0;
+    color: #444;
 }
