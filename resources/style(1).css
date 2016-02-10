@@ -12,6 +12,16 @@ Author URI: http://us-themes.com/
     display: none;
 }
 
+.blogItems {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vw;
+}
+
 .card {
     display: block;
     float: left;
