@@ -33,7 +33,7 @@
         var imageElement = item.querySelector('image url');
 
         console.log('found image element: ' + imageElement != null);
-        var imageUrl = imageElement ? imageElement.innerHTML : null;
+        var imageUrl = imageElement ? imageElement.textContent : null;
 
         var html = '';
 

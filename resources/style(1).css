@@ -21,7 +21,11 @@ Author URI: http://us-themes.com/
 
 .cardImage {
     display: block;
-    width: 600px;
+    min-width: 400px;
+}
+
+.card, .cardImage {
+    max-width: 600px;
 }
 
 .cardContent {
