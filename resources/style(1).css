@@ -46,7 +46,7 @@ Author URI: http://us-themes.com/
 @media all and (min-width: 800px) {
 
     .card, .cardImage {
-        width: 48.5vw;
+        width: 48vw;
     }
 
     .cardImage {
@@ -57,7 +57,7 @@ Author URI: http://us-themes.com/
 @media all and (min-width: 1200px) {
 
     .card, .cardImage {
-        width: 32.5vw;
+        width: 32vw;
     }
 
     .cardImage {
@@ -68,7 +68,7 @@ Author URI: http://us-themes.com/
 @media all and (min-width: 1600px) {
 
     .card, .cardImage {
-        width: 24vw;
+        width: 23.5vw;
     }
 
     .cardImage {
