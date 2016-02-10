@@ -65,7 +65,7 @@
 
             var html = '';
             for (var i = 0, length = items.length; i < length; i++) {
-                html += getBlogItemHtml(item);
+                html += getBlogItemHtml(items[i]);
             }
 
             document.querySelector('.blogItems').innerHTML = html;
