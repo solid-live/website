@@ -32,14 +32,36 @@ Author URI: http://us-themes.com/
     border-radius: 2px;
 }
 
-.card {
-    width: 500px;
+.card, .cardImage {
 }
 
 .cardImage {
-    width: 500px;
-    height: 300px;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+@media all and (min-width: 960px) {
+
+    .card, .cardImage {
+        width: 49vw;
+    }
+
+    .cardImage {
+        width: 29.4vw;
+    }
+}
+
+@media all and (min-width: 1280px) {
+
+    .currentUsername {
+        display: inline;
+    }
+}
+
+@media all and (min-width: 1920px) {
+
+    .currentUsername {
+        display: inline;
+    }
 }
