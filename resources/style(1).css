@@ -28,7 +28,7 @@ Author URI: http://us-themes.com/
 }
 
 .card {
-    width: 480px;
+    max-width: 480px;
 }
 
 .cardImage {
