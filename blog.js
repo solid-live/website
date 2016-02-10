@@ -122,7 +122,7 @@
     }
 
     function isVisible(elem) {
-        return visibleinviewport(elem, true, thresholdX, thresholdY);
+        return visibleInViewport(elem, true, thresholdX, thresholdY);
     }
 
     function loadImage(elem, url) {
