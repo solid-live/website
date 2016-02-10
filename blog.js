@@ -81,6 +81,15 @@
             }
 
             document.querySelector('.blogItems').innerHTML = html.join('');
+
+            // vanilla JS
+            // init with element
+            var grid = document.querySelector('.blogItems');
+            var msnry = new Masonry(grid, {
+                // options...
+                itemSelector: '.card',
+                columnWidth: 500
+            });
         });
     }
 
