@@ -1,7 +1,7 @@
 (function () {
 
-    var thresholdX = screen.availWidth;
-    var thresholdY = screen.availHeight;
+    var thresholdX = screen.availWidth / 2;
+    var thresholdY = screen.availHeight / 2;
 
     var wheelEvent = (document.implementation.hasFeature('Event.wheel', '3.0') ? 'wheel' : 'mousewheel');
 
