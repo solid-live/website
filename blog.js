@@ -27,11 +27,15 @@
         var link = item.querySelector('guid').innerHTML;
         var pubDate = item.querySelector('pubDate').innerHTML;
 
-        var imageElement = item.querySelector('image url');
+        var imageElement = item.querySelector('image');
+        console.log('image element: ' + imageElement);
 
         var imageUrl = null;
 
-        console.log('image element: ' + imageElement);
+        if (imageElement) {
+            imageElement = imageElement.querySelector('url');
+        }
+
         if (imageElement) {
             imageUrl = imageElement ? imageElement.textContent : null;
         }
