@@ -70,12 +70,12 @@
 
             var items = div.querySelectorAll('item');
 
-            var html = '';
+            var html = [];
             for (var i = 0, length = items.length; i < length; i++) {
-                html += getBlogItemHtml(items[i]);
+                html.unshift(getBlogItemHtml(items[i]));
             }
 
-            document.querySelector('.blogItems').innerHTML = html;
+            document.querySelector('.blogItems').innerHTML = html.join('');
         });
     }
 
