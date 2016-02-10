@@ -43,7 +43,7 @@
 
             imageUrl = imageUrl.replace('https://emby.media/', '');
             imageUrl = imageUrl.replace('http://emby.media/', '');
-            html += '<img class="cardImage" src="' + imageUrl + '" />';
+            html += '<div class="cardImage" style="background-image:url(' + imageUrl + ');"></div>';
         }
 
         html += '<div class="cardContent">';

@@ -17,7 +17,7 @@ Author URI: http://us-themes.com/
     -ms-flex-direction: column;
     -ms-flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     height: 100vw;
 }
@@ -32,15 +32,14 @@ Author URI: http://us-themes.com/
     border-radius: 2px;
 }
 
-.cardImage {
-    display: block;
-    max-height: 500px;
-}
-
 .card {
-    max-width: 480px;
+    width: 500px;
 }
 
 .cardImage {
-    max-width: 480px;
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
