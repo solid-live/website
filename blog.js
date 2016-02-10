@@ -11,7 +11,7 @@
 
                 if (this.status < 400) {
 
-                    var handler = new Tautologistics.NodeHtmlParser.DefaultHandler(function (error, dom) {
+                    var handler = new htmlparser.RssHandler(function (error, dom) {
                         if (error) {
                             reject();
                         } else {
