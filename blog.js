@@ -88,7 +88,7 @@
             var msnry = new Masonry(grid, {
                 // options...
                 itemSelector: '.card',
-                columnWidth: 500
+                columnWidth: 480
             });
         });
     }

@@ -26,6 +26,10 @@ Author URI: http://us-themes.com/
     max-height: 500px;
 }
 
-.card, .cardImage {
-    max-width: 500px;
+.card {
+    width: 480px;
+}
+
+.cardImage {
+    max-width: 480px;
 }
