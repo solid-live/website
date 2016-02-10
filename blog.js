@@ -27,7 +27,7 @@
     function getBlogItemHtml(item) {
 
         var title = item.querySelector('title').innerHTML;
-        var link = item.querySelector('link').innerHTML;
+        var link = item.querySelector('guid').innerHTML;
         var pubDate = item.querySelector('pubDate').innerHTML;
 
         var imageElement = item.querySelector('image url');
@@ -36,6 +36,10 @@
         var html = '';
 
         html += '<a class="card" href="' + link + '">';
+
+        if (imageUrl) {
+            html += '<img class="cardImage" src="' + imageUrl + '" />';
+        }
 
         html += '<div class="cardContent">';
 

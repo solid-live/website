@@ -13,11 +13,16 @@ Author URI: http://us-themes.com/
 }
 
 .card {
-    display: block;
+    display: inline-block;
     color: #000;
+    background-color: #fff;
+}
+
+.cardImage {
+    display: block;
+    width: 600px;
 }
 
 .cardContent {
-    background-color: #fff;
     padding: 1.5em;
 }
