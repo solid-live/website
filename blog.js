@@ -30,7 +30,7 @@
         var link = item.querySelector('link').innerHTML;
         var pubDate = item.querySelector('pubDate').innerHTML;
 
-        var imageElement = item.querySelector('image url').innerHTML;
+        var imageElement = item.querySelector('image url');
         var imageUrl = imageElement ? imageElement.innerHTML : null;
 
         var html = '';
