@@ -33,9 +33,11 @@ Author URI: http://us-themes.com/
 }
 
 .card, .cardImage {
+    width: 100%;
 }
 
 .cardImage {
+    height: 300px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -54,14 +56,33 @@ Author URI: http://us-themes.com/
 
 @media all and (min-width: 1280px) {
 
-    .currentUsername {
-        display: inline;
+    .card, .cardImage {
+        width: 49vw;
+    }
+
+    .cardImage {
+        width: 29.4vw;
+    }
+}
+
+@media all and (min-width: 1600px) {
+
+    .card, .cardImage {
+        width: 24vw;
+    }
+
+    .cardImage {
+        width: 14.4vw;
     }
 }
 
 @media all and (min-width: 1920px) {
 
-    .currentUsername {
-        display: inline;
+    .card, .cardImage {
+        width: 19vw;
+    }
+
+    .cardImage {
+        width: 11.4vw;
     }
 }
