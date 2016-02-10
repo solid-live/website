@@ -39,11 +39,12 @@
 
         html += '<div class="cardContent">';
 
-        html += '<div class="cardTitle">';
+        html += '<h2 class="w-blog-entry-title cardTitle">';
         html += title;
-        html += '</div>';
+        html += '</h2>';
 
-        html += '<div class="cardDate">';
+        html += '<div class="w-blog-meta cardDate">';
+        html += '<i class="mdfi_device_access_time"></i>';
         html += pubDate;
         html += '</div>';
 
