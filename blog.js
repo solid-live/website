@@ -31,6 +31,8 @@
         var pubDate = item.querySelector('pubDate').innerHTML;
 
         var imageElement = item.querySelector('image url');
+
+        console.log('found image element: ' + imageElement != null);
         var imageUrl = imageElement ? imageElement.innerHTML : null;
 
         var html = '';
