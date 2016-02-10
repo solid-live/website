@@ -27,14 +27,9 @@
         var link = item.querySelector('guid').innerHTML;
         var pubDate = item.querySelector('pubDate').innerHTML;
 
-        var imageElement = item.querySelector('image');
-        console.log('image element: ' + imageElement);
+        var imageElement = item.querySelector('image url') || item.querySelector('url');
 
         var imageUrl = null;
-
-        if (imageElement) {
-            imageElement = imageElement.querySelector('url');
-        }
 
         if (imageElement) {
             imageUrl = imageElement ? imageElement.textContent : null;
