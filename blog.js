@@ -40,6 +40,9 @@
         html += '<a class="card" href="' + link + '">';
 
         if (imageUrl) {
+
+            imageUrl = imageUrl.replace('https://emby.media/', '');
+            imageUrl = imageUrl.replace('http://emby.media/', '');
             html += '<img class="cardImage" src="' + imageUrl + '" />';
         }
 
