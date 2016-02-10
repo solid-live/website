@@ -19,7 +19,6 @@ Author URI: http://us-themes.com/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100vw;
 }
 
 .card {
