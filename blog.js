@@ -37,6 +37,8 @@
 
         var html = '';
 
+        link = link.replace('https://emby.media/', '');
+        link = link.replace('http://emby.media/', '');
         html += '<a class="card" href="' + link + '">';
 
         if (imageUrl) {
