@@ -1,27 +1,24 @@
 (function () {
 
-    function loadBlogData() {
+    function loadBlogData(callback) {
 
-        return new Promise(function (resolve, reject) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', "blog.xml", true);
 
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', "blog.xml", true);
+        xhr.onload = function (e) {
 
-            xhr.onload = function (e) {
+            if (this.status < 400) {
 
-                if (this.status < 400) {
+                callback(this.response);
 
-                    resolve(this.response);
+            } else {
+                //reject();
+            }
+        };
 
-                } else {
-                    reject();
-                }
-            };
+        //xhr.onerror = reject;
 
-            xhr.onerror = reject;
-
-            xhr.send();
-        });
+        xhr.send();
     }
 
     function getBlogItemHtml(item) {
@@ -32,8 +29,12 @@
 
         var imageElement = item.querySelector('image url');
 
-        console.log('found image element: ' + imageElement != null);
-        var imageUrl = imageElement ? imageElement.textContent : null;
+        var imageUrl = null;
+
+        console.log('image element: ' + imageElement);
+        if (imageElement) {
+            imageUrl = imageElement ? imageElement.textContent : null;
+        }
 
         var html = '';
 
@@ -63,7 +64,7 @@
 
     function renderBlog() {
 
-        loadBlogData().then(function (xml) {
+        loadBlogData(function (xml) {
 
             var div = document.createElement('div');
             div.innerHTML = xml;
