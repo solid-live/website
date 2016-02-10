@@ -52,9 +52,11 @@
         html += title;
         html += '</h2>';
 
+        html += '<div class="w-blog-entry-body">'
         html += '<div class="w-blog-meta cardDate">';
         html += '<i class="mdfi_device_access_time"></i>';
         html += pubDate;
+        html += '</div>';
         html += '</div>';
 
         html += '</div>';
