@@ -50,7 +50,7 @@ Author URI: http://us-themes.com/
     }
 
     .cardImage {
-        width: 29.1vw;
+        height: 29.1vw;
     }
 }
 
@@ -61,7 +61,7 @@ Author URI: http://us-themes.com/
     }
 
     .cardImage {
-        width: 19.5vw;
+        height: 19.5vw;
     }
 }
 
@@ -72,7 +72,7 @@ Author URI: http://us-themes.com/
     }
 
     .cardImage {
-        width: 14.4vw;
+        height: 14.4vw;
     }
 }
 
@@ -83,6 +83,6 @@ Author URI: http://us-themes.com/
     }
 
     .cardImage {
-        width: 11.4vw;
+        height: 11.4vw;
     }
 }
