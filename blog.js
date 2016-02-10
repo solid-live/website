@@ -11,17 +11,7 @@
 
                 if (this.status < 400) {
 
-                    var handler = new htmlparser.RssHandler(function (error, dom) {
-                        if (error) {
-                            reject();
-                        } else {
-                            resolve();
-                        }
-                    });
-
-                    var parser = new Tautologistics.NodeHtmlParser.Parser(handler);
-                    parser.parseComplete(this.response);
-                    alert(JSON.stringify(handler.dom, null, 2));
+                    resolve(this.response);
 
                 } else {
                     reject();
@@ -36,8 +26,13 @@
 
     function renderBlog() {
 
-        loadBlogData().then(function () {
+        loadBlogData().then(function (xml) {
 
+            var div = document.createElement('div');
+            div.innerHTML = xml;
+
+            var items = div.querySelectorAll('item');
+            alert(items.length);
 
         });
     }
