@@ -43,25 +43,25 @@ Author URI: http://us-themes.com/
     background-repeat: no-repeat;
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 800px) {
 
     .card, .cardImage {
-        width: 49vw;
+        width: 48.5vw;
     }
 
     .cardImage {
-        width: 29.4vw;
+        width: 29.1vw;
     }
 }
 
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1200px) {
 
     .card, .cardImage {
-        width: 49vw;
+        width: 32.5vw;
     }
 
     .cardImage {
-        width: 29.4vw;
+        width: 19.5vw;
     }
 }
 
