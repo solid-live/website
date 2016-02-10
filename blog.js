@@ -84,12 +84,12 @@
 
             // vanilla JS
             // init with element
-            var grid = document.querySelector('.blogItems');
-            var msnry = new Masonry(grid, {
-                // options...
-                itemSelector: '.card',
-                columnWidth: 480
-            });
+            //var grid = document.querySelector('.blogItems');
+            //var msnry = new Masonry(grid, {
+            //    // options...
+            //    itemSelector: '.card',
+            //    columnWidth: 480
+            //});
         });
     }
 
