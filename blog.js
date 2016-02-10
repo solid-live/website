@@ -68,9 +68,17 @@
         return html;
     }
 
+    function replaceAll(str, find, replace) {
+
+        return str.split(find).join(replace);
+    }
+
     function renderBlog() {
 
         loadBlogData(function (xml) {
+
+            xml = replaceAll(xml, "<description>", "<!--<description>");
+            xml = replaceAll(xml, "</description>", "</description>-->");
 
             var div = document.createElement('div');
             div.innerHTML = xml;
@@ -83,15 +91,6 @@
             }
 
             document.querySelector('.blogItems').innerHTML = html.join('');
-
-            // vanilla JS
-            // init with element
-            //var grid = document.querySelector('.blogItems');
-            //var msnry = new Masonry(grid, {
-            //    // options...
-            //    itemSelector: '.card',
-            //    columnWidth: 480
-            //});
         });
     }
 
