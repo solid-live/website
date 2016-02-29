@@ -2201,5 +2201,17 @@ After updating you will see an admin prompt to install the Visual C++ 2013 runti
             <url>https://emby.media/img/blog/6488.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Emby for iOS 1.09 Released</title>
+         <link>https://emby.media/emby-for-ios-1-09-released.html</link>
+         <pubDate>Wed, 17 Feb 2016 05:00:00 +0000</pubDate>
+         <description><![CDATA[<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-family: Romboto'>Version 1.09 has been released to the app store. Here are the highlights:</span></span></span><br /><ul class='bbc'><li><span style='font-family: Romboto'>Improve transcoder disposal on video stop</span></li><li><span style='font-family: Romboto'>Search results now change on the fly as you enter characters (thanks </span>AndreasNogler!)</li><li>Add "Off" option to remote control subtitle menu</li><li>Improved performance of the photo gallery</li><li>Improved performance of the now playing screen and resolved some of the content overlap issues</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/564524e2957d3_sm_IMG_0015.png' alt='Posted Image' /></span><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/564524e839360_sm_IMG_0017.png' alt='Posted Image' /></span></span></span></span></p>]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-for-ios-1-09-released.html</guid>
+         <image>
+            <title>Emby for iOS 1.09 Released</title>
+            <url>https://emby.media/img/blog/6493.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
