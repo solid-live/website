@@ -2153,5 +2153,29 @@ After updating you will see an admin prompt to install the Visual C++ 2013 runti
             <url>https://emby.media/img/blog/6493.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Emby for Chromecast Updated</title>
+         <link>https://emby.media/emby-for-chromecast-updated-01.html</link>
+         <pubDate>Mon, 01 Feb 2016 17:59:00 +0000</pubDate>
+         <description><![CDATA[<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />We've updated our Chromecast app with some new features. Here's what's new:</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 24px'>More AC-3 Passthrough, More FLAC</span></span></span><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />We've always supported ac-3 pass-through with Chromcast, but now we've updated our transcoding to also use it as well. This means if you have a DTS audio track for example, now we'll convert it to AC-3 which will still allow you to enjoy the surround sound.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />In addition, direct playback of FLAC has been extended to more Chromecast devices and not just Chromecast Audio.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 24px'>How to Get The Update</span></span></span><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />To receive the update, simply power cycle your Chromecast device and restart the casting app.<br /><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg' alt='Posted Image' /></span></span></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 24px'>Check out our Chromecast Wiki</span><br />Learn more about the app on our wiki at: <a href='https://github.com/MediaBrowser/Wiki/wiki/Chromecast' class='bbc_url' title='External link' rel='nofollow external'>https://github.com/M...wiki/Chromecast</a></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-family: Romboto'>Enjoy, and let us know what you think <img src='http://emby.media/community/public/style_emoticons/default/smile.png' class='bbc_emoticon' alt=':)' /></span></span></span></p>]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-for-chromecast-updated-01.html</guid>
+         <image>
+            <title>Emby for Chromecast Updated</title>
+            <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
+         </image>
+      </item>
+      <item>
+         <title>New Emby Server Releases</title>
+         <link>https://emby.media/new-emby-server-releases-01.html</link>
+         <pubDate>Tue, 02 Feb 2016 19:50:00 +0000</pubDate>
+         <description><![CDATA[<p><span style='font-size: 24px'>3.0.5821 Stable</span></p><p>&nbsp;</p><p>This is predominantly a bug fix release.</p><p>&nbsp;</p><p><span style='font-size: 18px'>New Features</span></p><p>&nbsp;</p><p>* Added user channel setting to group all channels into a single internet Channels view<br />* Support itunes episode file naming<br />* Add off option to subtitles remote control menu<br />* Use ac3 transcoding for MS Edge<br />* Updated photo slideshow now has auto-advance functions and closes with the back button</p><p>&nbsp;</p><p><span style='font-size: 18px'>Issues Resolved</span></p><p>&nbsp;</p><p>* Fix web client image scaling<br />* Restart recording timers on system wake<br />* Fix pt-br with tvdb<br />* Update wdtv live dlna profile<br />* Music album image fixes</p><p>&nbsp;</p><p><span style='font-size: 24px'>3.0.5860 Beta</span></p><p>&nbsp;</p><p>This beta finally merges forward all of the database changes we've been working on within the dev branch. Over time this is going to lead to much faster server and Emby app performance, although it's going to take a bit of time to adjust different areas to take advantage of it.</p><p>&nbsp;</p><p>Please note - upon restarting with the update you will be greeted with a forced update process, and this could take a little while. Please leave your feedback and report your issues in the community.</p>]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/new-emby-server-releases-01.html</guid>
+         <image>
+            <title>New Emby Server Releases</title>
+            <url>https://emby.media/img/blog/6488.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
