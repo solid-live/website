@@ -2230,5 +2230,17 @@ erfect choice for binge watching your favorite series.</span></span><br /><span 
             <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Emby for iOS 1.1.1 Released</title>
+         <link>https://emby.media/emby-for-ios-1-1-1-released.html</link>
+         <pubDate>Wed, 02 Mar 2016 18:45:00 +0000</pubDate>
+         <description><![CDATA[<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-family: Romboto'>A new version has been released to the app store. It resolves the following issues:</span></span></span><ul class='bbc'><li>Text-based subtitles not displaying when selected</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/564524e2957d3_sm_IMG_0015.png' alt='Posted Image' /></span><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/564524e839360_sm_IMG_0017.png' alt='Posted Image' /></span></span></span></span></p>]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-for-ios-1-1-1-released.html</guid>
+         <image>
+            <title>Emby for iOS 1.1.1 Released</title>
+            <url>https://emby.media/img/blog/6493.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
