@@ -2259,5 +2259,17 @@ a</a> and <a href='https://tv.emby.media' class='bbc_url' title=''>https://tv.em
             <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
          </image>
       </item>
+      <item>
+         <title>Emby for Chromecast Updated to Support Auto-Play Setting</title>
+         <link>https://emby.media/emby-for-chromecast-updated-autoplay.html</link>
+         <pubDate>Sat, 05 Mar 2016 21:42:00 +0000</pubDate>
+         <description><![CDATA[<p>We've updated our Chromecast app to support the new episode auto-play feature introduced in Emby Server 3.0.5882. Now you can control whether or not you'd like next episodes to be auto-played, and Chromecast will respect the setting.</p><p>&nbsp;</p><p><span style='font-size: 24px'>How to Get The Update</span><br />To receive the update, simply power cycle your Chromecast device and restart the casting app.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Check out our Chromecast Wiki</span><br />Learn more about the app on our wiki at: <a href='https://github.com/M...wiki/Chromecast' class='bbc_url' title='External link' rel='nofollow external'>https://github.com/M...wiki/Chromecast</a></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg' alt='Posted Image' /></span></p>]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-for-chromecast-updated-autoplay.html</guid>
+         <image>
+            <title>Emby for Chromecast Updated to Support Auto-Play Setting</title>
+            <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
