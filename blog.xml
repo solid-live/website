@@ -2271,5 +2271,22 @@ a</a> and <a href='https://tv.emby.media' class='bbc_url' title=''>https://tv.em
             <url>https://emby.media/community/uploads/inline/2/5416200a4bb67_53f77010a8549_MirrorDetail.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Emby Server 3.0.5882 Released</title>
+         <link>https://emby.media/emby-server-3.0.5882-released.html</link>
+         <pubDate>Thu, 10 Mar 2016 17:31:00 +0000</pubDate>
+         <description><![CDATA[
+<p>A new version has been released. Here are the highlights.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Audio and Subtitle Selections Now Remembered</span></p><p>&nbsp;</p><p>When you play a video that you've already played before, Emby Server will now remember your previous audio and subtitl
+]]>
+<![CDATA[
+e selections, and will apply them automatically.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Episode Auto-Play Setting</span></p><p>&nbsp;</p><p>Emby apps will now auto-play next episodes, but if you'd like to turn this off, we've added a user preference setting under Playback.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Changes:</span><ul class='bbc'><li>Fix chromecast queue command</li><li>Update lazy loading of recording objects</li><li>Update dlna server</li><li>Add auto-organize smart match feature</li><li>Update device discovery</li><li>Fix subtitles in iOS safari</li><li>Fix subtitle position after seeking in chrome & chromecast</li><li>Remember audio & subtitle selections</li><li>Auto-organize fix</li><li>Fix reading of OfficialRatingDescription</li><li>Support additional m3u fields</li><li>Fix transcoding of sub/idx</li><li>Improve support for videos within photo libraries</li><li>Resolve issues with external players in mobile chrome</li><li>Support creating a new series with auto-organize</li></ul></p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-server-3.0.5882-released.html</guid>
+         <image>
+            <title>Emby Server 3.0.5882 Released</title>
+            <url>https://emby.media/img/blog/6488.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
