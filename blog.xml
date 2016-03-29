@@ -2325,5 +2325,19 @@ r and launch <a href='http://tv.emby.media' class='bbc_url' title=''>tv.emby.med
             <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
          </image>
       </item>
+      <item>
+         <title>Emby Server 3.0.5911 Released</title>
+         <link>https://emby.media/emby-server-3.0.5911-released.html</link>
+         <pubDate>Tue, 29 Mar 2016 19:38:46 +0000</pubDate>
+         <description><![CDATA[
+<p>A new Emby Server release is available and contains new features, bug fixes and stability improvements. Here are the highlights:</p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Multi-Tuner Support</span></p><p>&nbsp;</p><p>If you'd like to have multiple tv tuners using different sources, it's now possible. The Schedules Direct guide setup allows you to choose which tuners to apply the data to, allowing you to create separate lineups for each tuner if you'd like.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug fixes:</span></p><p>&nbsp;</p><p>* Fix opus sync conversion<br />* Improve handling of people image download failures<br />* Fix MovieDb image providers not supporting all languages<br />* Ipv6 fix<br />* Fix subtitles in Microsoft Edge<br />* Fix subtitles with Samsung DLNA<br />* Fix tvdb episode fetch by absolute numbering<br />* Resolve issue with movie metadata download</p><p>&nbsp;</p><p><span style='font-size: 24px'>Other changes:</span></p><p>&nbsp;</p><p>* Add MovieDb as an episode metadata provider<br />* Support MovieDb pt-BR<br />* Update detail screen layout<br />* Support single MovieDb id in nfo's<br />* Improve database performance</p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-server-3.0.5911-released.html</guid>
+         <image>
+            <title>Emby Server 3.0.5911 Released</title>
+            <url>https://emby.media/img/blog/6488.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
