@@ -2339,5 +2339,19 @@ r and launch <a href='http://tv.emby.media' class='bbc_url' title=''>tv.emby.med
             <url>https://emby.media/img/blog/6488.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Introducing Emby for Apple TV</title>
+         <link>https://emby.media/introducing-emby-for-apple-tv</link>
+         <pubDate>Sun, 03 Apr 2016 21:17:51 +0000</pubDate>
+         <description><![CDATA[
+<p><p class='bbc_center'><span style='font-size: 18px'><strong class='bbc'>Available NOW in the App store on your 4th Gen Apple TV</strong></span></p></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016b25001ab_DeviceHome.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><p class='bbc_center'>Access all<sup class='bbc'><span style='font-size: 12px'>*</span></sup> of your Emby media now from your Apple TV device.</p></p><p>&nbsp;</p><p><span style='font-size: 18px'><span style='font-size: 24px'>Supports Your Favorite Emby Features:</span></span><ul class='bbc'><li><strong class='bbc'>Movies</strong> - Complete with support for Emby <em class='bbc'>Cinema Mode</em></li><li><strong class='bbc'>TV</strong> - Manage your binge watching like a pro with automatic next episode queueing and quick access to subsequent episodes right from the TV Series and Episode pages</li><li><strong class='bbc'>Music</strong> - Full support for playlists, instant mix, artists and albums</li><li><strong class='bbc'>Cover Art</strong> Plug-in - Add your own personal touch to your images with custom treatments and overlays</li><li><strong class='bbc'>Photos</strong> and more from the smart, beautiful and intuitive interface of the Apple TV 4.</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 18px'>Find what you want quickly and easily with a smart home screen design as well as individualized displays for each media type. Or use the full search capabilities including voice dictation <span style='font-size: 12px'>(requires tvOS 9.2)</span>.</span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016c3ac0ccf_TV.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016c52ab533_AllMovies.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016c7c2a846_Moviedetail3.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016caa49efb_SeriesDetail.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016cd7146d1_Music.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016cfa1c56e_Album.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/3/57016e3c76876_Photos.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p>* Live TV not yet supported</p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/introducing-emby-for-apple-tv</guid>
+         <image>
+            <title>Introducing Emby for Apple TV</title>
+            <url>https://emby.media/community/uploads/inline/3/57016ba800b2d_Home.png</url>
+         </image>
+      </item>
    </channel>
 </rss>
