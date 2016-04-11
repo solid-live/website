@@ -2370,5 +2370,36 @@ issing from some Emby apps</li><li>Support m2ts direct play with WDTV Live DLNA<
             <url>https://emby.media/img/blog/6488.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Emby for iOS 1.1.4 Released</title>
+         <link>https://emby.media/emby-for-ios-1-1-4-released.html</link>
+         <pubDate>Thu, 07 Apr 2016 02:22:00 +0000</pubDate>
+         <description><![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='color: rgb(34,34,34)'><span style='font-family: Helvetica Neue'>A new version has been released to the app store. </span></span></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-f
+]]>
+<![CDATA[
+amily: Romboto'><br /><span style='font-size: 24px'>Revamped Chromecast Support</span></span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />Chromecast support has been completely rewritten and is now much more stable, connects faster, and automatically reconnects just as you would expect.</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Issues Resolved:</span><ul class='bbc'><li>Resolved loading issues on favorites & search screens</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/564524e2957d3_sm_IMG_0015.png' alt='Posted Image' /></span></span><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/564524e839360_sm_IMG_0017.png' alt='Posted Image' /></span></span></span></span></p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-for-ios-1-1-4-released.html</guid>
+         <image>
+            <title>Emby for iOS 1.1.4 Released</title>
+            <url>https://emby.media/img/blog/6493.jpg</url>
+         </image>
+      </item>
+      <item>
+         <title>Emby Server 3.0.5913 Released</title>
+         <link>https://emby.media/emby-server-305913-released.html</link>
+         <pubDate>Mon, 11 Apr 2016 18:47:00 +0000</pubDate>
+         <description><![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />A new Emby Server release is available and contains new features, bug fixes and stability improvements. Here are the highlights:</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 24px'>Bug fixes:</span></span></span></p><p>&nbsp;</p><p>* Fix channel items in Emby for windows media center<br />* Fix latest items in Emby for windows media center<br />* Fix open subtitles download error<br />* Fix #1609 - Generated links are relative to site root<br />* Exclude trailers from suggestion categories</p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-server-305913-released.html</guid>
+         <image>
+            <title>Emby Server 3.0.5913 Released</title>
+            <url>https://emby.media/img/blog/6488.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
