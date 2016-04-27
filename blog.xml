@@ -2401,5 +2401,36 @@ amily: Romboto'><br /><span style='font-size: 24px'>Revamped Chromecast Support<
             <url>https://emby.media/img/blog/6488.jpg</url>
          </image>
       </item>
+      <item>
+         <title>Emby Server 3.0.5930 Released</title>
+         <link>https://emby.media/emby-server-305930-released.html</link>
+         <pubDate>Sun, 17 Apr 2016 21:44:01 +0000</pubDate>
+         <description><![CDATA[
+<p><strong class='bbc'>Important</strong>: This version will perform a database upgrade after installation. This process could take a little while. Please be patient.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Support For New HDHomerun Media Info</span></p><p>&nbsp;</p><p>New media information from the HD Homerun json api has been incorporated. You'll now see more direct play and stream copy of live tv than ever before. Microsoft Edge can now direct stream your live tv thanks to it's support for AC3 audio!</p><p>&nbsp;</p><p><span style='font-size: 24px'>Improved Transcoding For Microsoft Edge and Opera</span></p><p>&nbsp;</p><p>Dramatic improvements have been made here. You'll now see more remuxing (stream copy), and very little video transcoding. Chrome users have been enjoying this feature for several months now. This also includes Emby Theater on Xbox One!</p><p>&nbsp;</p><p><span style='font-size: 24px'>New In-Browser rendering of ASS / SSA subtitles</span></p><p>&nbsp;</p><p>This is a real treat for anime fans as it is no longer necessary to burn them in with transcoding. Styles are even preserved:</p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/57033097eee0b_Untitled.png' alt='Posted Image' /></span></span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Fixes</span><ul class='bbc'><li>Fix block by tags</li><li>Fix dynamic images replacing custom images</li><li>Fix sync quality cannot be changed</li><li>Fix collection (boxset) grouping</li><li>Fix EMC queries</li><li>Fix channel playback on apple devices</li><li>Fix default audio track detection</li></ul></p><p>&nbsp;</p><p><span style='font-size: 24px'>Other Changes</span><ul class='bbc'><li>Improve identify feature</li><li>Improve support for embedded video metadata</li><li>Add subtitle option to only download subtitles that are a perfect match</li><li>Restore yesterday in upcoming episodes screen</li><li>Improve guest invitation error messages</li><li>Windows: Install .net 4.6 framework if not already present</li><li>Exclude trailers from suggestion headers</li><li>Update subtitle encoding</li><li>Windows: Update ffmpeg</li><li>Update Dlna server friendly name</li><li>Handle empty album artists list when probing music</li></ul></p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/emby-server-305930-released.html</guid>
+         <image>
+            <title>Emby Server 3.0.5930 Released</title>
+            <url>https://emby.media/img/blog/6488.jpg</url>
+         </image>
+      </item>
+      <item>
+         <title>More Improvements for the Android TV/Fire TV App</title>
+         <link>https://emby.media/more-improvements-for-the-android-tvfire-tv-app.html</link>
+         <pubDate>Tue, 19 Apr 2016 19:10:01 +0000</pubDate>
+         <description><![CDATA[
+<p>The latest version of the Android TV and Fire TV Apps include several improvements centered around audio playback and stability. The highlights are:<br /><ul class='bbc'><li><span style='font-size: 14px'><strong class='bbc'>Framework Updates</strong></span> - The Android TV framework elements h
+]]>
+<![CDATA[
+ave been updated to incorporate bug-fixes from Google that should improve stability when moving around the interface quickly.</li><li><span style='font-size: 14px'><strong class='bbc'>Video Player Improvements</strong></span><ul class='bbc'><li><strong class='bbc'>​Android TV</strong>:<ul class='bbc'><li>Bitstreaming of DD and DTS in most instances (some older hardware configurations involving things like optical connections still are not completely worked out)</li><li>Faster playback startup and seeking when direct playing</li><li>Better player stability</li></ul></li><li><strong class='bbc'>Fire TV</strong>:<ul class='bbc'><li>Bitstreaming of DD in most instances</li><li>Option to transcode DTS to DD to get full 5.1 surround for those items as well. The transcoding will only have to convert the audio if everything else about the item is direct stream-able.</li></ul></li></ul></li><li><strong class='bbc'>Better Transcoding</strong> - We have changed the transcoding format to one that will allow for a much lighter load on the server when transcoding is necessary. It will allow more stream copy so that, if transcoding needs to be done only for audio, that is all that will transcode. It also will eliminate the odd issue of the video sometimes jumping back to some previous point right at the end.</li><li><strong class='bbc'>Improved Connection Worflow</strong> - This will hopefully solve issues a few people have seen when trying to connect remotely.</li><li><strong class='bbc'>Easier Server Switching</strong> - The ability to switch servers is now included from the user login screen.</li><li><strong class='bbc'>Ability to delete media</strong> - If enabled for the current user you can now delete episodes, movies and videos just like you already can with recorded TV.</li><li><strong class='bbc'>Ability to Forget Servers - </strong>The ability to "forget" a remembered server from your list if it is no longer valid. This requires a context menu at this point so it is only available if you have that ability with your remote. On the Fire it is the menu button. On a Google device, the menu is produced by the "Y" controller button so you'd need a controller or a remote that can map that.</li><li><strong class='bbc'>Improved Image Handling</strong> - Images should load faster and no longer exhibit the issue of showing a previous image as you scroll quickly through the interface.</li><li><strong class='bbc'>Various Fixes and Improvements</strong> - Many other small improvements and fixes.</li></ul></p><p>&nbsp;</p><p>Coming soon to a device near you. Get it in the <a href='http://www.amazon.com/Emby-for-Fire-TV/dp/B00VVJKTW8/ref=sr_1_1?ie=UTF8&qid=1461014888&sr=8-1&keywords=Emby' class='bbc_url' title='External link' rel='nofollow external'>Amazon</a> or <a href='https://play.google.com/store/apps/details?id=tv.emby.embyatv' class='bbc_url' title='External link' rel='nofollow external'>Google</a> stores.</p>
+]]></description>
+         <author>Luke</author>
+         <guid>https://emby.media/more-improvements-for-the-android-tvfire-tv-app.html</guid>
+         <image>
+            <title>More Improvements for the Android TV/Fire TV App</title>
+            <url>https://emby.media/img/blog/6064.jpg</url>
+         </image>
+      </item>
    </channel>
 </rss>
