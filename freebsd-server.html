@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- saved from url=(0044)https://emby.media/downloads/freebsd-server/ -->
 <html itemscope itemtype="http://schema.org/Article" class="no-touch" lang="en-US">
 <head>
@@ -7,32 +7,32 @@
     <title>Emby Server for FreeBSD - Emby</title>
     <meta name="description" content="Emby Server for FreeBSD - Organize and stream your personal videos, music, photos and Live TV to any device.">
     <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="Emby">
-<meta itemprop="description" content="media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna">
-<meta itemprop="image" content="https://emby.media/resources/logowhite_1881.png">
+    <meta itemprop="name" content="Emby">
+    <meta itemprop="description" content="media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna">
+    <meta itemprop="image" content="https://emby.media/resources/logowhite_1881.png">
 
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="https://emby.media/resources/logowhite_1881.png">
-<meta name="twitter:site" content="@embyapp">
-<meta name="twitter:title" content="Emby">
-<meta name="twitter:description" content="media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna">
-<meta name="twitter:creator" content="@embyapp">
-<!-- Twitter summary card with large image must be at least 280x150px -->
-<meta name="twitter:image:src" content="https://emby.media/resources/logowhite_1881.png">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="https://emby.media/resources/logowhite_1881.png">
+    <meta name="twitter:site" content="@embyapp">
+    <meta name="twitter:title" content="Emby">
+    <meta name="twitter:description" content="media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna">
+    <meta name="twitter:creator" content="@embyapp">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="https://emby.media/resources/logowhite_1881.png">
 
-<!-- Open Graph data -->
-<meta property="og:title" content="Emby" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://emby.media" />
-<meta property="og:image" content="https://emby.media/resources/logowhite_1881.png" />
-<meta property="og:description" content="media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna" />
-<meta property="og:site_name" content="Emby" />
-<meta property="article:published_time" content="2014-06-27T16:07:52.711" />
-<meta property="article:modified_time" content="2016-06-27T16:07:52.711" />
-<meta property="article:section" content="Article Section" />
-<meta property="article:tag" content="Article Tag" />
-<meta property="fb:admins" content="1618309211750238"/>
-<meta property="fb:app_id" content="1618309211750238" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Emby" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://emby.media" />
+    <meta property="og:image" content="https://emby.media/resources/logowhite_1881.png" />
+    <meta property="og:description" content="media server for personal streaming videos tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna" />
+    <meta property="og:site_name" content="Emby" />
+    <meta property="article:published_time" content="2014-06-27T16:07:52.711" />
+    <meta property="article:modified_time" content="2016-06-27T16:07:52.711" />
+    <meta property="article:section" content="Article Section" />
+    <meta property="article:tag" content="Article Tag" />
+    <meta property="fb:admins" content="1618309211750238" />
+    <meta property="fb:app_id" content="1618309211750238" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <link rel="stylesheet" id="rs-plugin-settings-css" href="resources/settings.css" type="text/css" media="all">
@@ -499,6 +499,8 @@
                                                 make config<br>
                                                 # enable the lame option<br>
                                                 # enable the ass subtitles option<br>
+                                                # enable the opus subtitles option<br>
+                                                # enable the x265 subtitles option<br>
                                                 make install clean
                                             </code>
                                         </p>
@@ -508,10 +510,12 @@
                                             To enable Emby service (will automatically run at boot):<br>
                                             <code>sysrc emby_server_enable="YES"</code>
                                         </p>
+
                                     </div>
                                 </div>
                             </div>
-                        </div><div class="one-third">
+                        </div>
+                        <div class="one-third">
                             <div class="wpb_text_column ">
                                 <div class="wpb_wrapper">
 
@@ -521,6 +525,41 @@
                                         <span class="wpb_button align_left"><a href="https://github.com/MediaBrowser/Wiki/wiki" target="_blank" class="g-btn color_primary type_raised"><i class="fa fa-book"></i><span>Wiki</span><span class="ripple-container"></span></a></span>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="white-space: pre-wrap;">
+                                <h1>Additional Notes</h1>
+                                Emby Server uses FFmpeg for transcoding and ImageMagick for
+                                generating thumbnails. The default ports/pkg builds of FFmpeg
+                                and ImageMagick on FreeBSD have a number of options which
+                                could be SET/UNSET to improve your Emby Server experience.
+
+                                It is recommended to recompile the multimedia/ffmpeg package
+                                from ports with the following options ENABLED (SET):
+                                - ASS (required for subtitle rendering)
+                                - LAME (required for mp3 audio transcoding, disabled by default due to mp3 licensing restrictions)
+                                - OPUS (required for opus audio codec support)
+                                - X265 (required for H.265 video codec support
+
+                                It is recommended to recompile the graphics/ImageMagick package
+                                from ports with the following options DISABLED (UNSET):
+                                - 16BIT_PIXEL (to increase thumbnail generation performance)
+
+                                If you had mediabrowser installed before the project was
+                                renamed to emby-server, you may want to rename the user and
+                                group (note that moving the database is not supported):
+                                # pw groupmod 989 -n mediabrowser -l emby
+                                # pw usermod 989 -n mediabrowser -l emby -g emby -c Emby\ Server
+
+                                To automatically start Emby Server at boot time:
+                                # echo 'emby_server_enable="YES"' >> /etc/rc.conf
+
+                                To then manually start Emby Server without rebooting:
+                                # service emby-server start
+
+                                Once started, visit the following webpage to configure:
+                                http://localhost:8096/
                             </div>
                         </div>
                     </div><!-- Row Backgrounds --><div class="upb_no_bg" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false" data-custom-vc-row="" data-vc="4.5.2" data-theme-support=""></div>
