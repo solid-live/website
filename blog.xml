@@ -2612,5 +2612,53 @@ if you have a setup with a trusted certificate or you have enabled your self-sig
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Theater 2.5 Released</title>
+      <link>https://emby.media/emby-theater-25-released.html</link>
+      <pubDate>Wed, 20 Jul 2016 21:17:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A lot of exciting, community-driven development has taken place and we're pleased to announce new features that are available.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Try it Now</span></p><p>&nbsp;</p><p>Windows: <a href='http://emby.media/emby-theater.html' class='bbc_url' title=''>http://emby.media/emby-theater.html</a><br />Chrome, Opera, Microsoft Edge, Firefox, Safari: <a href='http://emby.media/emby-theater-web.html' class='bbc_url' title=''>http://emby.media/emby-theater-web.html</a><br />Xbox One: <a href='http://emby.media/emby-theater-xboxone.html' class='bbc_url' title=''>http://emby.media/emby-theater-xboxone.html</a></p><p>&nbsp;</p><p><span style='font-size: 24px'>Now Supports HDMI-CEC Control With Your TV Remote</span></p><p>&nbsp;</p><p>The latest version now supports the HDMI-CEC protocol. If your HTPC has the appropriate HDMI-CEC hardware, you can now control Emby Theater with your TV remote (Windows version only)!</p><p>&nbsp;</p><p>By supported hardware, we're referring to CEC adapters which you can get over at <a href='https://www.pulse-eight.com' class='bbc_url' title='External link' rel='nofollow external'>https://www.pulse-eight.com</a></p><p>&nbsp;</p><p><strong class='bbc'>Important</strong>: This is an optional feature. You'll be prompted to install CEC drivers. You are free to decline this by cancelling, and you won't be bothered about it again.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Play Your Games</span></p><p>&nbsp;</p><p>External players have been updated to support launching games. Now you're playing with power!</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/815/578ba0a18d659_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Redesigned Back Menu</span></p><p>&nbsp;</p><p>We think you'll find the new look much more pleasing and easier to use.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/578ff9b7a9ca6_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Context Menus</span></p><p>&nbsp;</p><p>Access context menus for selected items, either by right-clicking, or by using the menu button on your remote control.</p><p>&nbsp;</p><p><span style='font-size: 24px'>New Slide Up Menu</span></p><p>&nbsp;</p><p>The new slide-up menu in desktop mode offers quick access to many of your favorite functions. Just hover the mouse over a poster.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/578ff042c2c69_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Multi-Select Menu</span></p><p>&nbsp;</p><p>You're probably familiar with this from the standard web interface. When running under the mobile or desktop display modes, you can now access multi-select menus via left click-hold, or tap and hold. Multi-Select allows you to perform bulk operations on selected items such as marking watched, refreshing, and more.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/578fefc601580_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>3-Dot Context Menus for Lists</span></p><p>&nbsp;</p><p>When running under the mobile or desktop display modes, lists will now have the familiar 3-dot context menus, allowing a wide range of management options that are relevant to the selected item.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/578fee842ed01_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Easily Re-order Playlists with Drag Handles</span></p><p>&nbsp;</p><p>When running under the mobile or desktop display modes, you'll now see drag handles next to playlist items, allowing for quick and easy re-ordering.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/578fee842ed01_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>New Sleep Protection</span><br />Now if you leave video playback running unattended for hours on end, you'll eventually see an "Are you still watching?" dialog. This is perfect for binge watching to help prevent entire series from accidentally being marked watched in the event you fall asleep while watching.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Faster Performance on Xbox One</span><br />The app navigates and animates faster than ever on Xbox One. If you haven't yet tried it on Xbox One, be sure to check it out at <a href='http://tv.emby.media' class='bbc_url' title=''>http://tv.emby.media</a></p><p>&nbsp;</p><p><span style='font-size: 24px'>Fork the Default Skin</span><br />Can you do HTML and JavaScript? Then why not fork the default skin?</p><p>&nbsp;</p><p><a href='https://github.com/MediaBrowser/emby-web-defaultskin' class='bbc_url' title='External link' rel='nofollow external'>https://github.com/MediaBrowser/emby-web-defaultskin</a></p><p>&nbsp;</p><p>Let us know what changes and improvements you're able to come up with. You can even release your forked version to the Emby community!</p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-theater-25-released.html</guid>
+      <image>
+        <title>Emby Theater 2.5 Released</title>
+        <url>https://emby.media/community/uploads/inline/2/561bc276520b9_1.png</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.0.6000 Released</title>
+      <link>https://emby.media/emby-server-306000-released.html</link>
+      <pubDate>Sat, 23 Jul 2016 22:28:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>A new version of Emby Server is now rolling out and is designed mainly to address a few remaining issues when running under Mono 4.4, but also includes a few new features. Here are the highlights.</span></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Easily Re-order Playlists with Drag Handles</span></p><p>&nbsp;</p><p>You'll now see drag handles next to playlist items, allowing for quick and easy re-ordering.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/578fee842ed01_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Better Music Genre Images</span></p><p>&nbsp;</p><p>We think you'll enjoy these. Please note, if you want replace your existing images with the new style, you'll need to delete the existing ones first.</p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/5793cea23f018_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Bug Fixes</span><ul class='bbc'><li>Fix saving of country code setting in nfo's</li></ul><span style='font-size: 24px'><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>Other Improvements</span></span></span><ul class='bbc'><li>Speed up database upgrades</li><li>Unify voice components</li><li>Add new stream builder options</li><li>Improve performance of all episodes view</li><li>Support photos in home video libraries</li><li>Add ability to edit user profiles from admin screens</li><li>Improve subtitles for Apple TV</li><li>Update resume menu to show resume time</li><li>Support username and password within xmltv urls</li><li>Support more subtitle language conventions</li><li>Display "more from artist" on album screen</li><li>Add playlist item drag handles</li><li>Set default directory picker path for QNAP</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-306000-released.html</guid>
+      <image>
+        <title>Emby Server 3.0.6000 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.0.6020 Released</title>
+      <link>https://emby.media/emby-server-306020-released.html</link>
+      <pubDate>Fri, 29 Jul 2016 16:25:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>A small update to the previous release has gone out.</p><p>&nbsp;</p><p><span style='font-size: 24px'>Issues Resolved</span><ul class='bbc'><li>Prevent incorrect default movie rating</li><li>Fix file date modified change not refreshing content</li><li>Improve mobile safari loading problems</li><li>Prevent media from being blocked when user access to transcoding is disabled</li><li>Resolve music randomly stopping on Android</li></ul><span style='font-size: 24px'>Other Changes</span><ul class='bbc'><li>Improve performance of metadata editor</li><li>Update mac server to newer garbage collection model</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-306020-released.html</guid>
+      <image>
+        <title>Emby Server 3.0.6020 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
