@@ -2660,5 +2660,69 @@ if you have a setup with a trusted certificate or you have enabled your self-sig
         <url>https://emby.media/img/blog/6488.jpg</url>
       </image>
     </item>
+    <item>
+      <title>Emby Server Now on Thecus NAS !</title>
+      <link>https://emby.media/emby-server-now-on-thecus-nas.html</link>
+      <pubDate>Sat, 30 Jul 2016 20:54:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>Thanks to the help of outkastm, Emby Server is now available on Thecus NAS devices.</p><p>&nbsp;</p><p> <span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p> Installation is a breeze and can be performed directly within Thecus AppCenter. For complete installation instructions, check out the download page of the Emby website:</p><p>&nbsp;</p><p> <a href='http://emby.media/nas-server.html' class='bbc_url' title=''>http://emby.media/nas-server.html</a></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-now-on-thecus-nas.html</guid>
+      <image>
+        <title>Emby Server Now on Thecus NAS !</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.0.6030 Released</title>
+      <link>https://emby.media/emby-server-306030-released.html</link>
+      <pubDate>Thu, 04 Aug 2016 20:03:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br />A small update to the previous release has gone out.</span></span><br /><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><br /><span style='font-size: 24px'>Issues Resolved</span></span></span><ul class='bbc'><li>Added additional fixes for Mono 4.4, specifically relating to the library scan</li><li>Resolve DLNA failure with Media Monkey</li><li>Improved incorrect detection of multi-resolution movies</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Other Changes</span></span></span><ul class='bbc'><li>Added more transcoding details of active sessions to the server dashboard</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-306030-released.html</guid>
+      <image>
+        <title>Emby Server 3.0.6030 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Emby Server 3.0.6050 Released</title>
+      <link>https://emby.media/emby-server-306050-released.html</link>
+      <pubDate>Mon, 08 Aug 2016 19:38:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'>A small update to the previous release has gone out.</span></span></p><p>&nbsp;</p><p><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Issues Resolved</span></span></span><ul class='bbc'><li>Fix queue menu options</li></ul><span style='color: rgb(40,40,40)'><span style='font-family: Romboto'><span style='font-size: 24px'>Other Changes</span></span></span><ul class='bbc'><li>Support mp4 timed text</li><li>Validate hardware encoder presence before attempting to use</li><li>Improve library scan performance</li><li>Improve people refresh performance</li><li>Improve server shutdown performance</li><li>Improve server dashboard loading performance</li><li>Improve performance of loading artist lists</li></ul></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/emby-server-306050-released.html</guid>
+      <image>
+        <title>Emby Server 3.0.6050 Released</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
+    <item>
+      <title>Try the Emby Chrome App !</title>
+      <link>https://emby.media/try-the-emby-chrome-app.html</link>
+      <pubDate>Tue, 09 Aug 2016 18:58:00 +0000</pubDate>
+      <description>
+        <![CDATA[
+<p>If you enjoy the Emby web app and would like to use it fullscreen like any other app, then try the Chrome app.</p><p>&nbsp;</p><p>We've recently updated it with new features including:<ul class='bbc'><li>Multi-server support</li><li>Emby Connect</li></ul></p><p>&nbsp;</p><p><span rel='lightbox'><img class='bbc_img' src='http://emby.media/community/uploads/inline/2/57aa299e9e7dd_Untitled.png' alt='Posted Image' /></span></p><p>&nbsp;</p><p><span style='font-size: 24px'>Installation</span></p><p>&nbsp;</p><p>Visit this url and click "Add to Chrome"</p><p>&nbsp;</p><p><a href='https://chrome.google.com/webstore/detail/emby/pejchbgakmkcikonfkahmnapmhkllmnp' class='bbc_url' title='External link' rel='nofollow external'>https://chrome.google.com/webstore/detail/emby/pejchbgakmkcikonfkahmnapmhkllmnp</a></p>
+]]>
+      </description>
+      <author>Luke</author>
+      <guid>https://emby.media/try-the-emby-chrome-app.html</guid>
+      <image>
+        <title>Try the Emby Chrome App !</title>
+        <url>https://emby.media/img/blog/6488.jpg</url>
+      </image>
+    </item>
   </channel>
 </rss>
