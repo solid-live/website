@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
         } else {
            var username = $('#username').val();
            var pw = CryptoJS.MD5(MediaBrowser.ConnectService.cleanPassword($('#pw').val()));
-           $.post("https://connect.mediabrowser.tv/service/user/authenticate?nameOrEmail="+username+"&password="+pw).done(function(json) {
+           $.post("https://connect.emby.media/service/user/authenticate?nameOrEmail="+username+"&password="+pw).done(function(json) {
                var result= $.parseJSON(json);
                console.log(result);
                var user = result.User;
@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
 });
 
 function confirm(userId, pin, $) {
-           $.post("https://connect.mediabrowser.tv/service/pin/confirm?pin="+pin+"&userId="+userId).done(function() { $('#msg').html("Pin Confirmed.  Thank you."); }).fail(function(result) { $('#msg').html("Confirm Failed. Please ensure the pin is correct.  You may need to generate another one if it has been several minutes."); });
+           $.post("https://connect.emby.media/service/pin/confirm?pin="+pin+"&userId="+userId).done(function() { $('#msg').html("Pin Confirmed.  Thank you."); }).fail(function(result) { $('#msg').html("Confirm Failed. Please ensure the pin is correct.  You may need to generate another one if it has been several minutes."); });
 }
 
 (function (globalScope) {
